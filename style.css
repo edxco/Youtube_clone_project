@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap'); 
 /* This is the reset for all the classes below*/
 
 html, body, div, span, applet, object, iframe,
@@ -22,7 +23,7 @@ time, mark, audio, video {
 }
 
 /* Global */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap'); 
+
 
 body {
     color: #000;
@@ -40,6 +41,7 @@ a{
 
 #main {
     justify-items: center;
+    align-items: flex-start;
     width: 100%;
     padding: 30px 0;
 }
@@ -66,16 +68,22 @@ a{
 
 /* Side bar */
 
+aside{
+    width: 30%;
+}
+
 #minivideo-box{ /*Container of all minivideo image + text*/
     display: flex;
-    justify-content: space-around;
-    align-items: stretch;
+    /* justify-content: space-around; */
+    align-items: center;
+    
     max-width: 1200px;
 }
 
 .minivideo-img{
-    width: 220px;
-    flex: 0 0 220px; /* This is for fixed width regarding resize */
+    width: 180px;
+    text-align: center;
+    flex: 0 0 180px; /* This is for fixed width regarding resize */
 }
 
 .minivideo-text{
@@ -155,10 +163,8 @@ a{
     background-color: #fff;
     border-color: rgb(233, 233, 233);
     border-right-color: transparent;
-    border: thin solid border;
-    border-radius: 2px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border: 1px solid;
+    border-radius: 2px 0 0 2px;
     font-size: 16px;
     margin-left: 4px;
     padding: 1px 0 1px 10px;
@@ -191,7 +197,6 @@ a{
 
 #column1 {
     width: 75%;
-    margin-top: 25px;
 }
 
 #player {
