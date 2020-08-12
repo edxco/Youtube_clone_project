@@ -34,6 +34,7 @@ body {
 a{
     text-decoration: none;
     color: #000;
+    /* Change font-weight to a class after branches merge */
     font-weight: 600;
 }
 
@@ -53,6 +54,9 @@ a{
 .side-p10{padding: 0 10px;}
 
 .side-p40{padding: 0 40px;}
+
+.pointer{cursor: pointer;}
+
 
 /* Body */
 
@@ -135,7 +139,6 @@ a{
 }
 
 #search-button {
-    cursor: pointer;
     height: 32px;
     width: 60px;
     border-radius: 0 4px 4px 0;
@@ -151,7 +154,6 @@ a{
 .icons {
     width: 32px;
     text-align: right;
-    cursor: pointer;
 }
 
 .icons-menu{
@@ -220,6 +222,7 @@ a{
 
 #channel-name {
     font-size: 14px;
+    /* Change font-weight to a class after branches merge */
     font-weight: 600;
     text-align: left;
     align-self: center;
@@ -228,9 +231,9 @@ a{
 .subscribe-button {
     align-self: center;
     border: none;
+    /* Change font-weight to a class after branches merge */
     font-weight: 600;
-    padding: 10px;
-    padding-bottom: 25px;
+    padding: 10px 10px 25px 10px; 
     font-size: 14px;
     color: white;
     background-color: #CC0000;
