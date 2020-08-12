@@ -1,47 +1,113 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        
-        <title>Page Title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/41738b16c0.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <!-- This is the header part it is divided in 3 columns/divs-->
-        <header class="header flexbox-display">
-            <!-- Menu + Logo -->
-            <nav class="nav-bar flexbox-display side-p25">
-                <i class="fas fa-bars" alt="Menu"></i>
-                <img id="logo-img" src="images/logo.png" alt="Youtube Logo"></img>
-            </nav>
-            <!-- Search bar -->
-            <div class="search-bar flexbox-display">
-                <input size="100%" id="search-bar-input grey" type="search" placeholder="Buscar">
-                
-                <button id="search-button"><i class="fas fa-search"></i></button>
-            </div>
-            <!-- Icons menu + profile image -->
-            <div class="icons-menu flexbox-display side-p25">
-                <span class="bold-grey side-p10"><i class="fas fa-video fa-lg "></i></span>
-                <span class="bold-grey side-p10"><i class="fas fa-th fa-lg "></i></span>
-                <span class="bold-grey side-p10"><i class="fas fa-bell fa-lg "></i></span>
-                <img src="images/profile-icon.png" alt="Profile Icon Image" class="icons side-p10">
-            </div>
-        </header>
-        <!-- Main and sidebar divs -->
-        <section id="main">
+
+<head>
+
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/41738b16c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- This is the header part it is divided in 3 columns/divs-->
+    <header class="header flexbox-display">
+        <!-- Menu + Logo -->
+        <nav class="nav-bar flexbox-display side-p25">
+            <i class="fas fa-bars" alt="Menu"></i>
+            <img id="logo-img" src="images/logo.png" alt="Youtube Logo"></img>
+        </nav>
+        <!-- Search bar -->
+        <div class="search-bar flexbox-display">
+            <input size="100%" id="search-bar-input grey" type="search" placeholder="Buscar">
+
+            <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        <!-- Icons menu + profile image -->
+        <div class="icons-menu flexbox-display side-p25">
+            <span class="bold-grey side-p10"><i class="fas fa-video fa-lg "></i></span>
+            <span class="bold-grey side-p10"><i class="fas fa-th fa-lg "></i></span>
+            <span class="bold-grey side-p10"><i class="fas fa-bell fa-lg "></i></span>
+            <img src="images/profile-icon.png" alt="Profile Icon Image" class="icons side-p10">
+        </div>
+    </header>
+    <!-- Main and sidebar divs -->
+    <section id="main">
         <div id="column1">
             <div class="" id="player"></div>
             <div class="" id="tit-and-desc"></div>
             <div class="" id="comments"></div>
         </div>
-        
-        <aside>   
 
+        <aside>
+            <div id="minivideo-box" >
+                <div class="minivideo-img">
+                    <img width="170px" height="95px" src="images/minivideo-1.png" alt="Next Video">
+                </div>
+                <div class="minivideo-text flexbox-display side-p10">
+                    <div class="minivideo-title bold-text p-top">7 years of coding startups in 7 minutes</div>
+                    <div class="minivideo-autor p-top grey">FalconMasters <i class="fas fa-check-circle fa-xs"></i>
+
+                    </div>
+                    <div class="minivideo-vis-days p-top grey">314.986 views · Two days ago</div>
+                </div>
+                <div class="three-dots flexbox-display">
+                    <a href="#" class="grey"><i class="fas fa-ellipsis-v fa-sm"></i></a>
+                </div>
+
+            </div>
+            <div id="minivideo-box">
+                <div class="minivideo-img">
+                    <img width="170px" height="95px" src="images/minivideo-2.png" alt="Next Video">
+                </div>
+                <div class="minivideo-text flexbox-display side-p10">
+                    <div class="minivideo-title bold-text p-top">How We learned to code and succeed!</div>
+                    <div class="minivideo-autor p-top grey">Sergio&lalo <i class="fas fa-check-circle fa-xs"></i>
+
+                    </div>
+                    <div class="minivideo-vis-days p-top grey">10 M views · One year ago</div>
+                </div>
+                <div class="three-dots flexbox-display">
+                    <a href="#" class="grey"><i class="fas fa-ellipsis-v fa-sm"></i></a>
+                </div>
+
+            </div>
+            <div id="minivideo-box">
+                <div class="minivideo-img">
+                    <img width="170px" height="95px" src="images/minivideo-3.png" alt="Next Video">
+                </div>
+                <div class="minivideo-text flexbox-display side-p10">
+                    <div class="minivideo-title bold-text p-top">Code and land your dream job of one million USD per month</div>
+                    <div class="minivideo-autor p-top grey">Microverse <i class="fas fa-check-circle fa-xs"></i>
+
+                    </div>
+                    <div class="minivideo-vis-days p-top grey">3.2 M views · Four months ago</div>
+                </div>
+                <div class="three-dots flexbox-display">
+                    <a href="#" class="grey"><i class="fas fa-ellipsis-v fa-sm"></i></a>
+                </div>
+
+            </div>
+            <div id="minivideo-box">
+                <div class="minivideo-img">
+                    <img width="170px" height="95px" src="images/minivideo-4.png" alt="Next Video">
+                </div>
+                <div class="minivideo-text flexbox-display side-p10">
+                    <div class="minivideo-title bold-text p-top">¿Why GitHub is so hard for begginers?</div>
+                    <div class="minivideo-autor p-top grey">EDXteam </i>
+
+                    </div>
+                    <div class="minivideo-vis-days p-top grey">314.986 views · Two days ago</div>
+                </div>
+                <div class="three-dots flexbox-display">
+                    <a href="#" class="grey"><i class="fas fa-ellipsis-v fa-sm"></i></a>
+                </div>
+
+            </div>
         </aside>
 
-        </section>
-    </body>
+    </section>
+</body>
+
 </html>

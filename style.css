@@ -37,7 +37,12 @@ a{
     font-weight: 600;
 }
 
+img{width: 100%;}
+
 .grey{color: #909090;}
+
+.bold-text{font-weight: 600;}
+.light-text{font-weight: 300;}
 
 .bold-grey{color: #606060;}
 
@@ -47,8 +52,33 @@ a{
 
 .side-p25{padding: 0 25px;}
 
+.p-top{padding-top: 3px;}
+
 /* Body */
 
+/* Side bar */
+
+#minivideo-box{ /*Container of all minivideo image + text*/
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    max-width: 1200px;
+}
+
+.minivideo-img{
+    width: 220px;
+    flex: 0 0 220px; /* This is for fixed width regarding resize */
+}
+
+.minivideo-text{
+    flex-direction: column;
+    width: 100%;
+}
+
+.three-dots{
+    flex: 0 0 20px;
+    justify-content: center;
+}
 
 
 /* Not ordered yet */
