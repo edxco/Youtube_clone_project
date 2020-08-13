@@ -334,14 +334,14 @@ a.fill-div {
     padding: 15px 0 5px 0;   
  }
 
-<<<<<<< HEAD
+
  .next-autoplay{
      align-items: flex-start;
      padding: 0;
      margin: 0;
      background: url("images/slide-btt.jpg") no-repeat right top;
  }
-=======
+
  /* Footer styling begins here */
 
 footer{
@@ -410,4 +410,3 @@ ul#footer-ul2 li{
     display: inline;
     margin-right: 15px;
 }
->>>>>>> 52808d19c26f6f7ea47852c4ad06c80ab2915e87
