@@ -94,7 +94,7 @@ h1{
 
 #balert-title{
     background-color: rgb(22, 122, 198);
-    border: 2px solid rgb(22, 122, 198);
+    border: 0;
     width: 98%;
     color: #fff;
     font-weight: 600;
@@ -103,7 +103,7 @@ h1{
 
 #balert-title2{
     background-color: rgb(22, 122, 198);
-    border: 2px 0 solid rgb(22, 122, 198);
+    border: 0;
     width: 2%;
     color: #fff;
     font-weight: 600;
@@ -278,10 +278,6 @@ main {
     width: 1%;
 }
 
-.sides {
-    width: 3%;
-}
-
 aside {
     position: relative;
     top: -10px;
@@ -435,6 +431,7 @@ a.fill-div {
     padding: 15px 0 15px 0;
     font-weight: 600;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .next-autoplay {
