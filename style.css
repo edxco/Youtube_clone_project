@@ -86,7 +86,18 @@ a{
     border: 2px solid rgb(22, 122, 198);
     width: 95%;
     line-height: 3em;
+    flex-wrap: wrap;
+    justify-content: space-between;
     }
+
+#balcont-1{
+    width: 50%;
+}
+
+#balcont-2{
+    width: 10%;
+    text-align: center;
+}
 
 #balert-learnm{
     justify-self: right;
