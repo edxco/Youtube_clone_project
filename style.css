@@ -56,9 +56,9 @@ a{
 #minivideo-box{ /*Container of all minivideo image + text*/
     display: flex;
     /* justify-content: space-around; */
-    align-items: center;
-    
+    align-items: flex-start;
     max-width: 1200px;
+    margin: 12px 0;
 }
 
 .minivideo-img{
@@ -71,12 +71,6 @@ a{
     flex-direction: column;
     width: 100%;
 }
-
-.three-dots{
-    flex: 0 0 20px;
-    /* justify-content: center; */
-}
-
 
 /* Not ordered yet */
 .circle { 
@@ -177,6 +171,8 @@ a{
 /* Left Column Styiling (includes player, descriptions and comments) */
 
 main {
+    align-self: flex-start;
+    align-items: flex-start;
     width: 71%;
 }
 
@@ -187,9 +183,10 @@ main {
     width: 3%;
 }
 aside{
+    position: relative;
+    top: -10px;
     width: 22%;
     padding: 10px;
-    align-items: flex-start;
     align-self: flex-start;
 }
 
@@ -333,4 +330,11 @@ a.fill-div {
     background-color: #fff;
     width: 100%;  
     padding: 15px 0 5px 0;   
+ }
+
+ .next-autoplay{
+     align-items: flex-start;
+     padding: 0;
+     margin: 0;
+     background: url("images/slide-btt.jpg") no-repeat right top;
  }
