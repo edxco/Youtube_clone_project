@@ -67,16 +67,29 @@ a {
 
 /* Body */
 
+#contcontainer{
+    flex-wrap: wrap;
+    /* margin: 15px 40px 0 40px; */
+    justify-content: center;
+    width: 100%;
+}
+
 #blue-alert{
     flex-wrap: wrap;
-    margin-top: 15px;
+    /* margin: 15px 40px 0 40px; */
+    margin: 15px 2% 0 2%;
     justify-content: center;
+    width: 100%;
+}
+
+#balert-titcont{
+    width: 100%;
 }
 
 #balert-title{
     background-color: rgb(22, 122, 198);
     border: 2px solid rgb(22, 122, 198);
-    width: 85%;
+    width: 98%;
     color: #fff;
     font-weight: 600;
     line-height: 2em;
@@ -85,7 +98,7 @@ a {
 #balert-title2{
     background-color: rgb(22, 122, 198);
     border: 2px 0 solid rgb(22, 122, 198);
-    width: 9%;
+    width: 2%;
     color: #fff;
     font-weight: 600;
     line-height: 2em;
@@ -96,7 +109,7 @@ a {
 
 #balert-content{
     border: 2px solid rgb(22, 122, 198);
-    width: 95%;
+    width: 100%;
     line-height: 3em;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -259,7 +272,7 @@ main {
     width: 1%;
 }
 
-#sides {
+.sides {
     width: 3%;
 }
 
@@ -433,7 +446,7 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     background-color: #fff;
-    padding: 15px 75px;
+    padding: 15px 40px;
 }
 
 #foot1 {
