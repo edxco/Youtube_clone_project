@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap');
 
 /* Global */
 
@@ -8,9 +8,9 @@ body {
     font-size: 14px;
     background-color: #F9F9F9;
     font-family: 'Roboto', sans-serif;
-    }
+}
 
-a{
+a {
     text-decoration: none;
     color: #000;
     /* Change font-weight to a class after branches merge */
@@ -19,43 +19,66 @@ a{
 
 #main {
     justify-items: center;
-     /*align-items: flex-start; */
+    /*align-items: flex-start; */
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     padding: 30px 0;
 }
 
-.grey{color: #909090;}
-.bold-grey{color: #606060;}
+.grey {
+    color: #909090;
+}
 
-.bold-text{font-weight: 600;}
-.light-text{font-weight: 300;}
+.bold-grey {
+    color: #606060;
+}
 
-.flexbox-display{display: flex;}
+.bold-text {
+    font-weight: 600;
+}
 
-.side-p4{padding: 0 4px;}
+.light-text {
+    font-weight: 300;
+}
 
-.side-p10{padding: 0 10px;}
+.flexbox-display {
+    display: flex;
+}
 
-.side-p40{padding: 0 40px;}
+.side-p4 {
+    padding: 0 4px;
+}
 
-.pointer{cursor: pointer;}
+.side-p10 {
+    padding: 0 10px;
+}
 
-.p-top{padding-top: 3px;}
+.side-p40 {
+    padding: 0 40px;
+}
 
- .border-table{
+.pointer {
+    cursor: pointer;
+}
+
+.p-top {
+    padding-top: 3px;
+}
+
+.border-table {
     background-color: #fff;
     border: 1px solid #ebebeb;
     margin: 10px 0;
- }   
+}
 
 /* Body */
 
 /* Side bar */
 
 
-#minivideo-box{ /*Container of all minivideo image + text*/
+#minivideo-box {
+    /*Container of all minivideo image + text*/
     display: flex;
     /* justify-content: space-around; */
     align-items: flex-start;
@@ -63,29 +86,30 @@ a{
     margin: 12px 0;
 }
 
-.minivideo-img{
+.minivideo-img {
     width: 180px;
     text-align: center;
-    flex: 0 0 180px; /* This is for fixed width regarding resize */
+    flex: 0 0 180px;
+    /* This is for fixed width regarding resize */
 }
 
-.minivideo-text{
+.minivideo-text {
     flex-direction: column;
     width: 100%;
 }
 
 /* Not ordered yet */
-.circle { 
+.circle {
     width: 48px;
-    height: 48px; 
-    -moz-border-radius: 70px; 
-    -webkit-border-radius: 70px; 
+    height: 48px;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
     border-radius: 70px;
     position: relative;
 
- }
+}
 
- .child{
+.child {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -93,13 +117,19 @@ a{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
- }
+}
 
-.blue{background-color: #265CFF;}
+.blue {
+    background-color: #265CFF;
+}
 
-.red{ background-color: #FF4D4D;}
+.red {
+    background-color: #FF4D4D;
+}
 
-.orange{background-color: orange;}
+.orange {
+    background-color: orange;
+}
 
 /* HEADER and NAVBAR */
 
@@ -166,7 +196,7 @@ a{
     text-align: right;
 }
 
-.icons-menu{
+.icons-menu {
     align-items: center;
 }
 
@@ -178,13 +208,15 @@ main {
     width: 71%;
 }
 
-#separator{
+#separator {
     width: 1%;
 }
-#sides{
+
+#sides {
     width: 3%;
 }
-aside{
+
+aside {
     position: relative;
     top: -10px;
     width: 22%;
@@ -255,19 +287,20 @@ aside{
     border: none;
     /* Change font-weight to a class after branches merge */
     font-weight: 600;
-    padding: 10px 10px 25px 10px; 
+    padding: 10px 10px 25px 10px;
     font-size: 14px;
-    color: white;
+    color: #fff;
     background-color: #CC0000;
     width: 118px;
     height: 27px;
-    margin-left: 63%;
+    margin-left: 68%;
     cursor: pointer;
 }
 
 .video-description {
     text-align: left;
     font-size: 14px;
+    text-align: justify;
     margin-top: 15px;
     padding-left: 60px;
     padding-right: 75px;
@@ -277,6 +310,7 @@ aside{
     border-bottom-color: #E0E0E0;
     padding-bottom: 15px;
 }
+
 .video-description a {
     text-decoration: none;
     color: dimgrey;
@@ -293,22 +327,23 @@ a.fill-div {
 
 /* STYLING FOR COMMENTS */
 
-.text-comment{
+.text-comment {
     font-size: 14px;
     color: #444;
     line-height: 1.6em;
 }
-.circle { 
+
+.circle {
     width: 48px;
-    height: 48px; 
-    -moz-border-radius: 70px; 
-    -webkit-border-radius: 70px; 
+    height: 48px;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
     border-radius: 70px;
     position: relative;
 
- }
+}
 
- .child{
+.child {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -316,42 +351,45 @@ a.fill-div {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
- }
- 
- #comments{
-    font-size: 14px; 
+}
+
+#comments {
+    font-size: 14px;
     padding: 15px 0;
     height: 100px;
     align-items: center;
     justify-content: center
- }
+}
 
- #showmore-btt{
+#showmore-btt {
     border-width: 0;
     border-top: 1px solid #ebebeb;
     background-color: #fff;
-    width: 100%;  
-    padding: 15px 0 5px 0;   
- }
+    width: 100%;
+    padding: 15px 0 5px 0;
+}
 
+.next-autoplay {
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    background: url("images/slide-btt.jpg") no-repeat right top;
+}
 
- .next-autoplay{
-     align-items: flex-start;
-     padding: 0;
-     margin: 0;
-     background: url("images/slide-btt.jpg") no-repeat right top;
- }
+.next-autoplay-position {
+    margin-right: 40px;
+}
 
- /* Footer styling begins here */
+/* Footer styling begins here */
 
-footer{
+footer {
     flex-wrap: wrap;
     width: 100%;
     background-color: #fff;
     padding: 15px 75px;
 }
 
-#foot1{
+#foot1 {
     width: 100%;
     align-items: center;
     padding-bottom: 15px;
@@ -360,12 +398,12 @@ footer{
     border-bottom-color: rgb(230, 230, 230);
 }
 
-#foot2{
+#foot2 {
     width: 100%;
     flex-wrap: wrap;
 }
 
-.footer-btn{
+.footer-btn {
     height: 28px;
     font-weight: 500;
     font-size: 11px;
@@ -380,33 +418,34 @@ footer{
     margin-right: 15px;
 }
 
-#footer-logo{
+#footer-logo {
     padding-right: 25px;
 }
 
-ul#footer-ul1{
+ul#footer-ul1 {
     width: 100%;
     list-style: none;
     padding: 0;
     margin-bottom: 8px;
 }
-ul#footer-ul1 li{
+
+ul#footer-ul1 li {
     display: inline;
     font-size: 14px;
-    color:rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
     font-weight: 600;
     margin-right: 10px;
 }
 
 
-ul#footer-ul2{
+ul#footer-ul2 {
     width: 100%;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-ul#footer-ul2 li{
+ul#footer-ul2 li {
     display: inline;
     margin-right: 15px;
 }
