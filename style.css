@@ -34,6 +34,8 @@ a{
 
 .flexbox-display{display: flex;}
 
+.side-p4{padding: 0 4px;}
+
 .side-p10{padding: 0 10px;}
 
 .side-p40{padding: 0 40px;}
@@ -332,9 +334,80 @@ a.fill-div {
     padding: 15px 0 5px 0;   
  }
 
+<<<<<<< HEAD
  .next-autoplay{
      align-items: flex-start;
      padding: 0;
      margin: 0;
      background: url("images/slide-btt.jpg") no-repeat right top;
  }
+=======
+ /* Footer styling begins here */
+
+footer{
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 75px;
+}
+
+#foot1{
+    width: 100%;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(230, 230, 230);
+}
+
+#foot2{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footer-btn{
+    height: 28px;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 0px;
+    border-style: solid;
+    border-color: rgb(211, 211, 211);
+    border-width: 1px;
+    border-radius: 2px;
+    margin-right: 15px;
+}
+
+#footer-logo{
+    padding-right: 25px;
+}
+
+ul#footer-ul1{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 8px;
+}
+ul#footer-ul1 li{
+    display: inline;
+    font-size: 14px;
+    color:rgb(51, 51, 51);
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+
+ul#footer-ul2{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#footer-ul2 li{
+    display: inline;
+    margin-right: 15px;
+}
+>>>>>>> 52808d19c26f6f7ea47852c4ad06c80ab2915e87
