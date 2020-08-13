@@ -20,8 +20,9 @@ a{
 #main {
     justify-items: center;
      /*align-items: flex-start; */
+    flex-wrap: wrap;
     justify-content: center;
-    width: 85%;
+    width: 100%;
     padding: 30px 0;
 }
 
@@ -51,9 +52,6 @@ a{
 
 /* Side bar */
 
-aside{
-    width: 30%;
-}
 
 #minivideo-box{ /*Container of all minivideo image + text*/
     display: flex;
@@ -76,7 +74,7 @@ aside{
 
 .three-dots{
     flex: 0 0 20px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 
@@ -178,14 +176,26 @@ aside{
 
 /* Left Column Styiling (includes player, descriptions and comments) */
 
-#column1 {
-    width: 75%;
+main {
+    width: 71%;
+}
+
+#separator{
+    width: 1%;
+}
+#sides{
+    width: 3%;
+}
+aside{
+    width: 22%;
+    padding: 10px;
+    align-items: flex-start;
+    align-self: flex-start;
 }
 
 #player {
     width: 100%;
-    margin-left: 5px;
-    text-align: right;
+    text-align: center;
 }
 
 .video-title {
