@@ -2,7 +2,6 @@
 
 /* Global */
 
-
 body {
     color: #000;
     font-size: 14px;
@@ -13,19 +12,15 @@ body {
 a {
     text-decoration: none;
     color: #000;
-    /* Change font-weight to a class after branches merge */
-    font-weight: 600;
 }
 
 h1{
-    font-family: 'Roboto', sans-serif !important;
     font-size: 20px !important;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 #main {
     justify-items: center;
-    /*align-items: flex-start; */
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
@@ -35,34 +30,14 @@ h1{
 .grey{color: #909090;}
 .bold-grey{color: #606060;}
 .white{color: #fff;}
-
-.bold-grey {
-    color: #606060;
-}
-
-.bold-text {
-    font-weight: 600;
-}
-
-.light-text {
-    font-weight: 300;
-}
-
-.flexbox-display {
-    display: flex;
-}
-
-.side-p4 {
-    padding: 0 4px;
-}
-.side-p15{padding: 0 15px;}
-
-.side-p40{padding: 0 40px;}
-
+.bold-text {font-weight: 600;}
+.light-text {font-weight: 300;}
+.flexbox-display {display: flex;}
+.side-p4 {padding: 0 4px;}
 .side-p10 {padding: 0 10px;}
-
+.side-p15{padding: 0 15px;}
+.side-p40{padding: 0 40px;}
 .pointer {cursor: pointer;}
-
 .p-top {padding-top: 3px;}
 
 .border-table {
@@ -71,130 +46,24 @@ h1{
     margin: 10px 0;
 }
 
-/* Body */
+/* GENERAL LAYOUT STYLING*/ 
 
-#contcontainer{
-    flex-wrap: wrap;
-    /* margin: 15px 40px 0 40px; */
-    justify-content: center;
-    width: 100%;
-}
-
-#blue-alert{
-    flex-wrap: wrap;
-    /* margin: 15px 40px 0 40px; */
-    margin: 15px 2% 0 2%;
-    justify-content: center;
-    width: 100%;
-}
-
-#balert-titcont{
-    width: 100%;
-}
-
-#balert-title{
-    background-color: rgb(22, 122, 198);
-    border: 0;
-    width: 98%;
-    color: #fff;
-    font-weight: 600;
-    line-height: 2em;
-}
-
-#balert-title2{
-    background-color: rgb(22, 122, 198);
-    border: 0;
-    width: 2%;
-    color: #fff;
-    font-weight: 600;
-    line-height: 2em;
-    align-items: center;
-    text-align: right;
-    padding-right: 1%;
-}
-
-#balert-content{
-    border: 2px solid rgb(22, 122, 198);
-    width: 100%;
-    line-height: 3em;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    }
-
-#balcont-1{
-    width: 50%;
-}
-
-#balcont-2{
-    width: 10%;
-    text-align: center;
-}
-
-#balert-learnm{
-    justify-self: right;
-}
-
-.bluelink{
-    font-weight: 500;
-    text-decoration: none;
-    color: rgb(22, 122, 198);
-}
-
-/* Side bar */
-
-
-.minivideo-box {
-    /*Container of all minivideo image + text*/
-    display: flex;
-    /* justify-content: space-around; */
+main {
+    align-self: flex-start;
     align-items: flex-start;
-    max-width: 1200px;
-    margin: 12px 0;
+    width: 71%;
 }
 
-.minivideo-img {
-    width: 180px;
-    text-align: center;
-    flex: 0 0 180px;
-    /* This is for fixed width regarding resize */
+#separator {
+    width: 1%;
 }
 
-.minivideo-text {
-    flex-direction: column;
-    width: 100%;
-}
-
-/* Not ordered yet */
-.circle {
-    width: 48px;
-    height: 48px;
-    -moz-border-radius: 70px;
-    -webkit-border-radius: 70px;
-    border-radius: 70px;
+aside {
     position: relative;
-
-}
-
-.child {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-.blue {
-    background-color: #265CFF;
-}
-
-.red {
-    background-color: #FF4D4D;
-}
-
-.orange {
-    background-color: orange;
+    top: -10px;
+    width: 22%;
+    padding: 10px;
+    align-self: flex-start;
 }
 
 /* HEADER and NAVBAR */
@@ -266,25 +135,92 @@ h1{
     align-items: center;
 }
 
-/* Left Column Styiling (includes player, descriptions and comments) */
+/* BODY BEGINS HERE */
+/* The blue alert is below */
 
-main {
-    align-self: flex-start;
+#contcontainer{
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#blue-alert{
+    flex-wrap: wrap;
+    margin: 15px 2% 0 2%;
+    justify-content: center;
+    width: 100%;
+}
+
+#balert-titcont{width: 100%;}
+
+#balert-title{
+    background-color: rgb(22, 122, 198);
+    border: 0;
+    width: 98%;
+    color: #fff;
+    font-weight: 600;
+    line-height: 2em;
+}
+
+#balert-title2{
+    background-color: rgb(22, 122, 198);
+    border: 0;
+    width: 2%;
+    color: #fff;
+    font-weight: 600;
+    line-height: 2em;
+    align-items: center;
+    text-align: right;
+    padding-right: 1%;
+}
+
+#balert-content{
+    border: 2px solid rgb(22, 122, 198);
+    width: 100%;
+    line-height: 3em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+#balcont-1{width: 50%;}
+
+#balcont-2{
+    width: 10%;
+    text-align: center;
+}
+
+#balert-learnm{justify-self: right;}
+
+.bluelink{
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(22, 122, 198);
+}
+
+
+/* LEFT SIDE BAR STARTS HERE */
+
+/* Container of all minivideo image + text */
+.minivideo-box {
+    display: flex;
     align-items: flex-start;
-    width: 71%;
+    max-width: 1200px;
+    margin: 12px 0;
 }
 
-#separator {
-    width: 1%;
+
+.minivideo-img {
+    width: 180px;
+    text-align: center;
+    flex: 0 0 180px; /* This is for fixed width regarding resize */
 }
 
-aside {
-    position: relative;
-    top: -10px;
-    width: 22%;
-    padding: 10px;
-    align-self: flex-start;
+.minivideo-text {
+    flex-direction: column;
+    width: 100%;
 }
+
+/* Left Column Styiling (includes player, descriptions and comments) */
 
 #player {
     width: 100%;
@@ -292,25 +228,20 @@ aside {
 }
 
 .video-title {
-    padding-top: 15px;
-    padding-bottom: 5px;
+    padding: 15px 0 5px 0;
     text-align: left;
     font-size: 18px;
 }
 
 .description-menu {
     display: flex;
-    border-style: solid;
-    border-color: transparent;
-    border-bottom-color: #E0E0E0;
-    border-width: 1px;
+    border-bottom: 1px solid #E0E0E0;
     padding-bottom: 5px;
 }
 
 .video-stats {
     width: 25%;
     color: grey;
-    font-size: 14px;
     padding-top: 10px;
     text-align: left;
 }
@@ -322,8 +253,8 @@ aside {
 }
 
 .channel-subscribe {
-    padding-top: 15px;
     display: flex;
+    padding-top: 15px;
 }
 
 .profile {
@@ -332,13 +263,9 @@ aside {
     margin-right: 15px;
 }
 
-.profile img {
-    border-radius: 50%;
-}
+.profile img {border-radius: 50%;}
 
 #channel-name {
-    font-size: 14px;
-    /* Change font-weight to a class after branches merge */
     font-weight: 600;
     text-align: left;
     align-self: center;
@@ -347,10 +274,7 @@ aside {
 .subscribe-button {
     align-self: center;
     border: none;
-    /* Change font-weight to a class after branches merge */
-    font-weight: 600;
     padding: 10px 10px 25px 10px;
-    font-size: 14px;
     color: #fff;
     background-color: #CC0000;
     width: 118px;
@@ -361,16 +285,8 @@ aside {
 
 .video-description {
     text-align: left;
-    font-size: 14px;
-    text-align: justify;
     margin-top: 15px;
-    /* padding-left: 60px; */
-    /* padding-right: 75px; */
-    border-style: solid;
-    border-color: transparent;
-    border-width: 1px;
-    border-bottom-color: #E0E0E0;
-    /* padding-bottom: 15px; */
+    border-bottom: 1px solid #E0E0E0;
 }
 
 .video-description a {
@@ -389,34 +305,7 @@ a.fill-div {
 
 /* STYLING FOR COMMENTS */
 
-.text-comment {
-    font-size: 14px;
-    color: #444;
-    line-height: 1.6em;
-}
-
-.circle {
-    width: 48px;
-    height: 48px;
-    -moz-border-radius: 70px;
-    -webkit-border-radius: 70px;
-    border-radius: 70px;
-    position: relative;
-
-}
-
-.child {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
 #comments {
-    font-size: 14px;
     padding: 15px 0;
     height: 100px;
     align-items: center;
@@ -441,9 +330,7 @@ a.fill-div {
     background: url("images/slide-btt.jpg") no-repeat right top;
 }
 
-.next-autoplay-position {
-    margin-right: 40px;
-}
+.next-autoplay-position {margin-right: 40px;}
 
 /* Footer styling begins here */
 
@@ -458,9 +345,7 @@ footer {
     width: 100%;
     align-items: center;
     padding-bottom: 15px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
 }
 
 #foot2 {
@@ -470,22 +355,17 @@ footer {
 
 .footer-btn {
     height: 28px;
-    font-weight: 500;
     font-size: 11px;
     text-decoration: none;
     cursor: pointer;
     vertical-align: middle;
     box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 0px;
-    border-style: solid;
-    border-color: rgb(211, 211, 211);
-    border-width: 1px;
+    border: 1px solid rgb(211, 211, 211);
     border-radius: 2px;
     margin-right: 15px;
 }
 
-#footer-logo {
-    padding-right: 25px;
-}
+#footer-logo {padding-right: 25px;}
 
 ul#footer-ul1 {
     width: 100%;
@@ -496,7 +376,6 @@ ul#footer-ul1 {
 
 ul#footer-ul1 li {
     display: inline;
-    font-size: 14px;
     color: rgb(51, 51, 51);
     font-weight: 600;
     margin-right: 10px;
