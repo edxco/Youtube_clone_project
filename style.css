@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap');
 
 /* Global */
-
 body {
     color: #000;
     font-size: 14px;
@@ -54,9 +53,7 @@ main {
     width: 71%;
 }
 
-#separator {
-    width: 1%;
-}
+#separator {width: 1%;}
 
 aside {
     position: relative;
@@ -83,9 +80,7 @@ aside {
     align-items: center;
 }
 
-.logo {
-    width: 15%;
-}
+.logo {width: 15%;}
 
 #logo-img {
     width: 80px;
@@ -131,9 +126,7 @@ aside {
     text-align: right;
 }
 
-.icons-menu {
-    align-items: center;
-}
+.icons-menu {align-items: center;}
 
 /* BODY BEGINS HERE */
 /* The blue alert is below */
